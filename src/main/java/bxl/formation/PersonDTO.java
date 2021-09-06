@@ -1,28 +1,28 @@
 package bxl.formation;
 
-public class Person {
-    private String nom;
+public class PersonDTO {
+    private String name;
     private int age;
 
-    public Person(String nom, int age) {
-        this.nom = nom;
+    public PersonDTO(String name, int age) {
+        this.name = name;
         this.age = age;
     }
 
     @Override
     public String toString() {
-        return "Person{" +
-                "nom='" + nom + '\'' +
+        return "PersonDTO{" +
+                "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
     }
 
-    public String getNom() {
-        return nom;
+    public String getName() {
+        return name;
     }
 
-    public void setNom(String nom) {
-        this.nom = nom;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getAge() {

@@ -1,1 +1,1 @@
-La valeur de la propriété projet.nom est : ${projet.nom}
+La valeur de la propriete projet.nom est : ${projet.nom}
